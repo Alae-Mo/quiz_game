@@ -1,15 +1,3 @@
-# ask the user 10 qsts and add one whenever they respond correctly, then type the score
-'''
- - add the multiple answers in QCM typa qsts         CHECK
- - and make sure to randomize their place càd not always the right answer is the last or first option     CHECK
- - make sure the oprtions display under the qst yet the user inputs answer after the qst              did something else
- - make the qsts prettier not like:                       CHECK
-            1. What is the equation for the area of a sphere?
-            ['(1/3)&pi;hr^2', '4&pi;r^2', '&pi;r^4', '(4/3)&pi;r^3']
- - Instead of 10 qsts, ask the user how many qsts does he/she wants.
- - (Next level) maybe after la correction, do something that will allow the user to type on a wrongly answered qst and it would take him/her to the qst. Or write that qst again in the correction part (cause we usely forget the qst)
- 
-'''
 import sys
 import random
 import requests
@@ -126,3 +114,4 @@ def print_corrections(wrongs):
 
 if __name__ == "__main__":
     main()
+
